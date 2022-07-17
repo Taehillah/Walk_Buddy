@@ -21,8 +21,8 @@
 
     <TextView
         android:id="@+id/medalEarned"
-        android:layout_width="331dp"
-        android:layout_height="30dp"
+        android:layout_width="304dp"
+        android:layout_height="56dp"
         android:layout_below="@id/congrats"
         android:layout_marginStart="50dp"
         android:layout_marginTop="20dp"
@@ -42,7 +42,7 @@
         android:layout_below="@+id/medalEarned"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         android:visibility="invisible"
@@ -55,7 +55,7 @@
         android:layout_below="@+id/medalEarned"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         android:visibility="invisible"
@@ -68,12 +68,11 @@
         android:layout_below="@+id/medalEarned"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         android:visibility="invisible"
         app:srcCompat="@drawable/goldwon" />
-
 
     <TextView
         android:id="@+id/averageResults"
@@ -112,7 +111,6 @@
             android:text="Back"
             android:textColor="#ffffff" />
 
-
         <com.google.android.material.button.MaterialButton
             android:id="@+id/exit"
             android:layout_width="150dp"
@@ -127,7 +125,6 @@
             android:textColor="#ffffff" />
 
     </LinearLayout>
-
 
 </RelativeLayout>
 

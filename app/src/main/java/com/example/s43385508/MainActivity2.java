@@ -21,17 +21,6 @@ import java.text.MessageFormat;
 
 public class MainActivity2 extends AppCompatActivity {
 
- /*   public static final String Hora = "Hora";
-    public static final String Motsotso = "Motsotso";
-
-    private EditText val1;
-    private EditText val2;
-    private Button button;
-    private String hr;
-    private int min;
-    private int defaultValue;
-    private Object Visible;
-*/
  TextView simplestResult1, simplestResult2;
  MaterialButton backButton, exitButton;
 
@@ -39,19 +28,15 @@ public class MainActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+
 //buttons and textview are referred to below:
-     /*
-     ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Second Activity");
-    */
+
         simplestResult1 = findViewById(R.id.medalEarned);
         simplestResult2 = findViewById(R.id.averageResults);
 
         Intent intent = getIntent();
         String simplestDiHours = intent.getStringExtra("simplestDiHours");
         String simplestDiMinutes = intent.getStringExtra("simplestDiMinutes");
-
-
 
         int huure = Integer.parseInt(simplestDiHours);
         int minute = Integer.parseInt(simplestDiMinutes);
@@ -63,8 +48,6 @@ public class MainActivity2 extends AppCompatActivity {
         ImageView pictureSilver = (ImageView)findViewById(R.id.imgSilver);
         ImageView pictureBronze = (ImageView)findViewById(R.id.imgBronze);
 
-
-
         if (averagePerHour<11)
         {
             pictureGold.setVisibility(View.VISIBLE);
@@ -73,7 +56,6 @@ public class MainActivity2 extends AppCompatActivity {
         }
         else if (averagePerHour<15)
         {
-
             pictureSilver.setVisibility(View.VISIBLE);
             simplestResult1.setText(MessageFormat.format("You have run: {0}minute(s) every Kilometer", averagePerHour));
             simplestResult2.setText("Yeeey! You have earned a Silver Medals");
@@ -85,7 +67,6 @@ public class MainActivity2 extends AppCompatActivity {
             simplestResult2.setText("You have earned a Bronze Medals");
         }
 
-
         //back Button
          backButton = findViewById(R.id.backArrow);
 
@@ -93,7 +74,9 @@ public class MainActivity2 extends AppCompatActivity {
         {
             @Override
             public void onClick(View view) {
-                System.exit(0);
+               Intent intent = new Intent(MainActivity2.this,MainActivity.class);
+               startActivity(intent);
+               finish();
             }
         });
 

@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 String simplestDiHours = diHours.getText().toString();
                 String simplestDiMinutes = diMinutes.getText().toString();
 
-    /*            if (TextUtils.isEmpty(diHours.getText().toString()))
+               if (TextUtils.isEmpty(diHours.getText().toString()))
                 {
                     diHours.setError("Please enter the Hours you Ran");
                 }
@@ -41,15 +41,14 @@ public class MainActivity extends AppCompatActivity {
                 {
                     diMinutes.setError("Please enter the Minutes you Ran");
                 }
-                else
-                {
-     */
-                    Intent i = new Intent(MainActivity.this, MainActivity2.class);
-                    i.putExtra("simplestDiMinutes", simplestDiMinutes);
-                    i.putExtra("simplestDiHours", simplestDiHours);
-                    startActivity(i);
-                    finish();
+                else {
 
+    Intent i = new Intent(MainActivity.this, MainActivity2.class);
+    i.putExtra("simplestDiMinutes", simplestDiMinutes);
+    i.putExtra("simplestDiHours", simplestDiHours);
+    startActivity(i);
+    finish();
+               }
             }
         });
     }

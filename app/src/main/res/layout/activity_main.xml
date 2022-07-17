@@ -23,7 +23,6 @@
         android:textColor="@color/white"
         android:textColorHint="@color/white" />
 
-
     <EditText
         android:id="@+id/minutes"
         android:layout_width="match_parent"
@@ -65,8 +64,6 @@
         android:textAlignment="center"
         android:textColor="@color/white"
         />
-
-
 
     <ImageView
         android:id="@+id/runningMan"
