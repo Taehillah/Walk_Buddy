@@ -15,11 +15,13 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.material.button.MaterialButton;
+
 import java.text.MessageFormat;
 
 public class MainActivity2 extends AppCompatActivity {
 
-    public static final String Hora = "Hora";
+ /*   public static final String Hora = "Hora";
     public static final String Motsotso = "Motsotso";
 
     private EditText val1;
@@ -29,23 +31,27 @@ public class MainActivity2 extends AppCompatActivity {
     private int min;
     private int defaultValue;
     private Object Visible;
-
+*/
+ TextView simplestResult1, simplestResult2;
+ MaterialButton backButton, exitButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-
-        ActionBar actionBar = getSupportActionBar();
+//buttons and textview are referred to below:
+     /*
+     ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Second Activity");
+    */
+        simplestResult1 = findViewById(R.id.medalEarned);
+        simplestResult2 = findViewById(R.id.averageResults);
 
         Intent intent = getIntent();
-        String simplestDiHours = intent.getStringExtra("SIMPLESTDIHOURS");
-        String simplestDiMinutes = intent.getStringExtra("SIMPLESTDIMINUTES");
+        String simplestDiHours = intent.getStringExtra("simplestDiHours");
+        String simplestDiMinutes = intent.getStringExtra("simplestDiMinutes");
 
-//textview fill
-        TextView simplestResult1 = findViewById(R.id.hours);
-        TextView simplestResult2 = findViewById(R.id.minutes);
+
 
         int huure = Integer.parseInt(simplestDiHours);
         int minute = Integer.parseInt(simplestDiMinutes);
@@ -81,7 +87,7 @@ public class MainActivity2 extends AppCompatActivity {
 
 
         //back Button
-        ImageButton backButton = findViewById(R.id.backArrow);
+         backButton = findViewById(R.id.backArrow);
 
         backButton.setOnClickListener(new View.OnClickListener()
         {
@@ -92,7 +98,7 @@ public class MainActivity2 extends AppCompatActivity {
         });
 
         //exitButton
-        TextView exitButton = findViewById(R.id.exit);
+        exitButton = findViewById(R.id.exit);
 
         exitButton.setOnClickListener(new View.OnClickListener() {
             @Override

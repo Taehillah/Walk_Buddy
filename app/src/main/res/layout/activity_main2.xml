@@ -20,7 +20,7 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/minutes"
+        android:id="@+id/medalEarned"
         android:layout_width="331dp"
         android:layout_height="30dp"
         android:layout_below="@id/congrats"
@@ -39,7 +39,7 @@
         android:id="@+id/imgBronze"
         android:layout_width="261dp"
         android:layout_height="232dp"
-        android:layout_below="@+id/minutes"
+        android:layout_below="@+id/medalEarned"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
@@ -52,7 +52,7 @@
         android:id="@+id/imgSilver"
         android:layout_width="261dp"
         android:layout_height="232dp"
-        android:layout_below="@+id/minutes"
+        android:layout_below="@+id/medalEarned"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
@@ -65,7 +65,7 @@
         android:id="@+id/imgGold"
         android:layout_width="261dp"
         android:layout_height="232dp"
-        android:layout_below="@+id/minutes"
+        android:layout_below="@+id/medalEarned"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
@@ -76,7 +76,7 @@
 
 
     <TextView
-        android:id="@+id/hours"
+        android:id="@+id/averageResults"
         android:layout_width="298dp"
         android:layout_height="55dp"
         android:layout_below="@+id/imgGold"
@@ -95,7 +95,7 @@
         android:id="@+id/btnsCover"
         android:layout_width="400dp"
         android:layout_height="150dp"
-        android:layout_below="@+id/hours"
+        android:layout_below="@+id/averageResults"
         android:layout_centerHorizontal="true"
         android:background="#09000000">
 
