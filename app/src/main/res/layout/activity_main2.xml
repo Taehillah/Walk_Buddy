@@ -11,12 +11,12 @@
         android:id="@+id/congrats"
         android:layout_width="230dp"
         android:layout_height="31dp"
-        android:layout_marginTop="40dp"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
         android:text="CONGRADULATIONS"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="20dp"
+        android:textSize="22dp"
         android:textStyle="bold" />
 
     <TextView
@@ -34,48 +34,52 @@
         android:textSize="15dp"
         android:textStyle="bold"
         tools:ignore="MissingConstraints" />
-    <LinearLayout
-        android:id="@+id/covers"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:layout_below="@+id/minutes"
-        android:layout_centerHorizontal="true"
-        android:background="#55000000" >
 
     <ImageView
         android:id="@+id/imgBronze"
         android:layout_width="261dp"
         android:layout_height="232dp"
-        android:layout_margin="20dp"
-        android:visibility="visible"
-        app:srcCompat="drawable-v24/bronzewon.png" />
+        android:layout_below="@+id/minutes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/bronzewon" />
 
     <ImageView
         android:id="@+id/imgSilver"
         android:layout_width="261dp"
         android:layout_height="232dp"
-        android:layout_margin="20dp"
-        android:visibility="visible"
-        app:srcCompat="drawable-v24/silverwon.png" />
+        android:layout_below="@+id/minutes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/silverwon" />
 
     <ImageView
         android:id="@+id/imgGold"
         android:layout_width="261dp"
         android:layout_height="232dp"
+        android:layout_below="@+id/minutes"
+        android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
-        android:visibility="visible"
-        app:srcCompat="drawable-v24/goldwon.png" />
+        android:visibility="invisible"
+        app:srcCompat="@drawable/goldwon" />
 
-</LinearLayout>
 
     <TextView
         android:id="@+id/hours"
         android:layout_width="298dp"
         android:layout_height="55dp"
-        android:layout_below="@+id/covers"
+        android:layout_below="@+id/imgGold"
         android:layout_marginStart="103dp"
         android:layout_marginTop="13dp"
         android:layout_marginEnd="103dp"
@@ -93,7 +97,7 @@
         android:layout_height="150dp"
         android:layout_below="@+id/hours"
         android:layout_centerHorizontal="true"
-        android:background="#55000000" >
+        android:background="#09000000">
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/backArrow"
@@ -107,8 +111,6 @@
             android:backgroundTint="#003333"
             android:text="Back"
             android:textColor="#ffffff" />
-
-
 
 
         <com.google.android.material.button.MaterialButton
