@@ -29,7 +29,12 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-//buttons and textview are referred to below:
+        //Fullscreen mode activated by default
+        View decorView = getWindow().getDecorView();
+        decorView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
+
+        //buttons and textview are referred to below:
 
         simplestResult1 = findViewById(R.id.medalEarned);
         simplestResult2 = findViewById(R.id.averageResults);

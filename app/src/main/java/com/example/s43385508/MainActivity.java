@@ -10,6 +10,7 @@ import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
@@ -20,12 +21,15 @@ import android.widget.TextClock;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputEditText;
 
+
 public class MainActivity extends AppCompatActivity {
     EditText diHours, diMinutes;
     MaterialButton buttone;
     SwitchCompat dark_mode;
     RelativeLayout background;
     int minTakenAsInt;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,9 +44,15 @@ public class MainActivity extends AppCompatActivity {
         //
         background = findViewById(R.id.layout);
 
+        //Fullscreen mode activated by default
+        View decorView = getWindow().getDecorView();
+        decorView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
+
         dark_mode.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 if (dark_mode.isChecked()) {
                     //when checked
                     background.setBackgroundResource(R.color.dark);
@@ -81,16 +91,7 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(i);
                     finish();
                 }
-
-
-
-                }
-
-
-
-
-
-        }
-        );
+            }
+        });
     }
 }
