@@ -24,7 +24,7 @@
         android:drawableLeft="@drawable/ic_baseline_hourglass_bottom_24"
         android:drawablePadding="20dp"
         android:hint="hours"
-        android:inputType="time"
+        android:inputType="number"
         android:padding="10dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white" />
@@ -43,7 +43,7 @@
         android:hint="minutes"
         android:drawableLeft="@drawable/ic_baseline_access_time_24"
         android:drawablePadding="20dp"
-        android:inputType="time"
+        android:inputType="number"
         android:padding="10dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white" />
