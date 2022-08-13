@@ -1,10 +1,10 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Theme.S43385508" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/teal_200</item>
-        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnPrimary">@color/teal_200</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_700</item>
@@ -13,6 +13,10 @@
         <item name="android:windowTranslucentNavigation">true</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">@android:color/transparent</item>
-        <!-- Customize your theme here. -->
+        <!-- My Custom Light Theme Color. -->
+
+
+
     </style>
+    <color name="backgroundColor">#339999</color>
 </resources>

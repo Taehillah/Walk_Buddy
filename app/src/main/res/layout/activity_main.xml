@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/layout"
+    android:background="@color/backgroundColor"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#339999"
     android:gravity="center"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
@@ -21,12 +21,13 @@
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
         android:background="#30ffffff"
-        android:drawableLeft="@drawable/ic_baseline_hourglass_bottom_24"
+        android:drawableStart="@drawable/ic_baseline_hourglass_bottom_24"
         android:drawablePadding="20dp"
-        android:hint="hours"
-        android:inputType="number"
-        android:padding="10dp"
+        android:autofillHints=""
+        android:hint="@string/hours"
+        android:inputType="time"
         android:textColor="@color/white"
+        android:padding="10dp"
         android:textColorHint="@color/white" />
 
     <EditText
@@ -40,10 +41,10 @@
         android:layout_marginBottom="10dp"
         android:autofillHints=""
         android:background="#30ffffff"
-        android:hint="minutes"
-        android:drawableLeft="@drawable/ic_baseline_access_time_24"
+        android:hint="@string/minutes"
+        android:drawableStart="@drawable/ic_baseline_access_time_24"
         android:drawablePadding="20dp"
-        android:inputType="number"
+        android:inputType="time"
         android:padding="10dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white" />
@@ -58,9 +59,9 @@
         android:layout_marginTop="30dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
-        android:text="S43385508 Marathon-App"
-        android:textAlignment="center"
         android:textColor="@color/white"
+        android:text="@string/s43385508_marathon_app"
+        android:textAlignment="center"
         android:textSize="24sp" />
 
     <TextView
@@ -69,12 +70,13 @@
         android:layout_height="62dp"
         android:layout_below="@id/runningMan"
         android:layout_centerHorizontal="true"
-        android:text="A marathon app that allows you to insert your time for scores. Enter the time you ran below then Press Submit"
+        android:text="@string/a_marathon_app_that_allows_you_to_insert_your_time_for_scores_enter_the_time_you_ran_below_then_press_submit"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="16sp" />
 
     <ImageView
+        android:contentDescription="@string/running_man_logo"
         android:id="@+id/runningMan"
         android:layout_width="500dp"
         android:layout_height="300dp"
@@ -99,7 +101,7 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="40dp"
         android:backgroundTint="#48BF91"
-        android:text="Submit"
+        android:text="@string/submit"
         android:textColor="#ffffff" />
 
     <androidx.appcompat.widget.SwitchCompat
@@ -112,5 +114,5 @@
         android:layout_marginStart="7dp"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="45dp"
-        android:text="Dark Mode" />
+        android:text="@string/dark_mode" />
 </RelativeLayout>

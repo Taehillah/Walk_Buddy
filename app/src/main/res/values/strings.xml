@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">S43385508</string>
+    <string name="hours">hours</string>
+    <string name="minutes">minutes</string>
+    <string name="s43385508_marathon_app">S43385508 Marathon-App</string>
+    <string name="a_marathon_app_that_allows_you_to_insert_your_time_for_scores_enter_the_time_you_ran_below_then_press_submit">A marathon app that allows you to insert your time for scores. Enter the time you ran below then Press Submit</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="submit">Submit</string>
+    <string name="running_man_logo">running man logo</string>
+    <string name="S43385508">Medal Types</string>
 </resources>

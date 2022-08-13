@@ -5,7 +5,7 @@
     android:id="@+id/layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#339999"
+    android:background="@color/backgroundColor"
     tools:context=".MainActivity2">
 
     <TextView
@@ -111,7 +111,7 @@
             android:layout_marginBottom="20dp"
             android:backgroundTint="#003333"
             android:text="Back"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"/>
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/exit"
@@ -125,8 +125,6 @@
             android:backgroundTint="#003333"
             android:text="Exit"
             android:textColor="#ffffff" />
-
     </LinearLayout>
-
 </RelativeLayout>
 
