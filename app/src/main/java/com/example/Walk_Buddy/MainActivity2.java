@@ -39,7 +39,7 @@ public class MainActivity2 extends AppCompatActivity {
         simplestResult1 = findViewById(R.id.medalEarned);
         simplestResult2 = findViewById(R.id.averageResults);
 
-        //collecting input data from MainActivity to MainActivity2
+        //collecting input data/information from MainActivity to MainActivity2
         Intent intent = getIntent();
         String simplestDiHours = intent.getStringExtra("simplestDiHours");
         String simplestDiMinutes = intent.getStringExtra("simplestDiMinutes");
