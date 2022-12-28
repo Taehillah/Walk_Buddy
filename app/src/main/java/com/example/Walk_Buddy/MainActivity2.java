@@ -1,7 +1,7 @@
 package com.example.Walk_Buddy;
 /*
  * Name: Ishmael Lehlohonolo Mafole
- * Purpose: a_marathon_app_that_allows_you_to_insert_your_time_for
+ * Purpose: a_walk_buddy_that_allows_you_to_insert_your_time_for
  *          scores_enter_the_time_you_ran_below_then_press_submit.
  */
 import androidx.appcompat.app.AppCompatActivity;
