@@ -1,4 +1,4 @@
-package com.example.s43385508;
+package com.example.Walk_Buddy;
 
 import android.content.Context;
 

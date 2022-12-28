@@ -1,9 +1,8 @@
-package com.example.s43385508;
-/*Student Number: 43385508
-* Name: Ishmael Lehlohonolo Mafole
-* Purpose: a_marathon_app_that_allows_you_to_insert_your_time_for
+package com.example.Walk_Buddy;
+/*
+*Name: Ishmael Lehlohonolo Mafole
+* Purpose: a_running_app_that_allows_you_to_insert_your_time_for
 *          scores_enter_the_time_you_ran_below_then_press_submit.
-* The Application is developed in accordance to the specifications of ICT2612
 */
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
@@ -14,11 +13,9 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
 import com.google.android.material.button.MaterialButton;
-import android.widget.Spinner;
 
 
 public class MainActivity extends AppCompatActivity {
