@@ -97,15 +97,15 @@
         android:layout_width="400dp"
         android:layout_height="150dp"
         android:layout_below="@+id/averageResults"
-        android:layout_marginTop="57dp"
+        android:layout_marginTop="55dp"
         android:background="#09000000">
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/backArrow"
-            android:layout_width="150dp"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="40dp"
             android:layout_marginTop="50dp"
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="20dp"
@@ -115,12 +115,12 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/exit"
-            android:layout_width="150dp"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="40dp"
             android:layout_marginTop="50dp"
-            android:layout_marginEnd="20dp"
+            android:layout_marginEnd="40dp"
             android:layout_marginBottom="20dp"
             android:backgroundTint="#003333"
             android:text="Exit"
