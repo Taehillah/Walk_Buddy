@@ -39,8 +39,8 @@
 
     <ImageView
         android:id="@+id/imgBronze"
-        android:layout_width="261dp"
-        android:layout_height="232dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_below="@+id/medalEarned"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
@@ -52,8 +52,8 @@
 
     <ImageView
         android:id="@+id/imgSilver"
-        android:layout_width="261dp"
-        android:layout_height="232dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_below="@+id/medalEarned"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
@@ -65,8 +65,8 @@
 
     <ImageView
         android:id="@+id/imgGold"
-        android:layout_width="261dp"
-        android:layout_height="232dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_below="@+id/medalEarned"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
@@ -79,7 +79,7 @@
     <TextView
         android:id="@+id/averageResults"
         android:layout_width="298dp"
-        android:layout_height="55dp"
+        android:layout_height="70dp"
         android:layout_below="@+id/imgGold"
         android:layout_marginStart="103dp"
         android:layout_marginTop="13dp"
@@ -97,7 +97,7 @@
         android:layout_width="400dp"
         android:layout_height="150dp"
         android:layout_below="@+id/averageResults"
-        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
         android:background="#09000000">
 
         <com.google.android.material.button.MaterialButton
@@ -111,7 +111,7 @@
             android:layout_marginBottom="20dp"
             android:backgroundTint="#003333"
             android:text="Back"
-            android:textColor="#ffffff"/>
+            android:textColor="#ffffff" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/exit"
