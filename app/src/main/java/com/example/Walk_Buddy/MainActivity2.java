@@ -70,7 +70,7 @@ public class MainActivity2 extends AppCompatActivity {
         {
             images[1].setVisibility(View.VISIBLE); //an array with index 1 called to be visible
             simplestResult1.setText(MessageFormat.format("You have run: {0} minute(s) every Kilometer", averagePerHour));
-            simplestResult2.setText("Yeeey! You have earned a Silver Medals");
+            simplestResult2.setText("Yippppy! You have earned a Silver Medals");
         }
         else
         {
