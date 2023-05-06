@@ -20,14 +20,14 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
+        android:autofillHints=""
         android:background="#30ffffff"
         android:drawableStart="@drawable/ic_baseline_hourglass_bottom_24"
         android:drawablePadding="20dp"
-        android:autofillHints=""
         android:hint="@string/hours"
         android:inputType="time"
-        android:textColor="@color/white"
         android:padding="10dp"
+        android:textColor="@color/white"
         android:textColorHint="@color/white" />
 
     <EditText
@@ -71,7 +71,7 @@
         android:layout_height="62dp"
         android:layout_below="@id/runningMan"
         android:layout_centerHorizontal="true"
-        android:text="@string/a_marathon_app_that_allows_you_to_insert_your_time_for_scores_enter_the_time_you_ran_below_then_press_submit"
+        android:text="A walking buddy applicaction. This application takes the said data to calculate the amount of time taken and gives a score"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="16sp" />
