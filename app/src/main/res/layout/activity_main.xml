@@ -28,7 +28,9 @@
         android:inputType="time"
         android:padding="10dp"
         android:textColor="@color/white"
-        android:textColorHint="@color/white" />
+        android:textColorHint="@color/white"
+
+        />
 
     <EditText
         android:id="@+id/minutes"
@@ -102,7 +104,7 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="40dp"
         android:backgroundTint="#48BF91"
-        android:text="@string/submit"
+        android:text="ENTER"
         android:textColor="#ffffff" />
 
     <androidx.appcompat.widget.SwitchCompat
