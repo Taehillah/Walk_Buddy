@@ -10,4 +10,4 @@ Have also embodied full screen on the application.
 
 On a later stage, the application must be able to auto calculate steps via the devices step counters.
 
-Feel free to indulge and grow the app.
+Feel free to indulge and grow the app. Ciao
