@@ -9,5 +9,5 @@ The application also has a dark and light mode capability with a fixed portrait 
 Have also embodied full screen on the application.
 
 On a later stage, the application must be able to auto calculate steps via the devices step counters.
-
+Also a coordination with smart watch devices.
 Feel free to indulge and grow the app. Ciao
