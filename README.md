@@ -1,4 +1,4 @@
-# Ishmael L. Mafole Running Application
+# Ishmael's Running Application
 I made the entire application to assist the walking community measure their daily accomplishments post every walk.
 
 The application basically assists by calculating the average time it takes to walk
