@@ -11,3 +11,4 @@ Have also embodied full screen on the application.
 On a later stage, the application must be able to auto calculate steps via the devices step counters.
 Also a coordination with smart watch devices.
 Feel free to indulge and grow the app. Ciao
+The ios version will be available soon%
